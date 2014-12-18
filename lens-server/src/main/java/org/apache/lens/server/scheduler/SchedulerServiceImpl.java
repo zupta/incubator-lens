@@ -23,9 +23,9 @@ import java.util.List;
 import org.apache.hive.service.cli.CLIService;
 import org.apache.lens.api.LensException;
 import org.apache.lens.api.LensSessionHandle;
-import org.apache.lens.api.ScheduleInfo;
-import org.apache.lens.api.ScheduleRunInfo;
 import org.apache.lens.api.schedule.XSchedule;
+import org.apache.lens.api.scheduler.ScheduleInfo;
+import org.apache.lens.api.scheduler.ScheduleRunInfo;
 import org.apache.lens.server.LensService;
 import org.apache.lens.server.api.scheduler.SchedulerService;
 

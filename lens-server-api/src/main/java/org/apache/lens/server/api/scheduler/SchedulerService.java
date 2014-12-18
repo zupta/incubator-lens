@@ -22,9 +22,8 @@ import java.util.List;
 
 import org.apache.lens.api.LensException;
 import org.apache.lens.api.LensSessionHandle;
-import org.apache.lens.api.ScheduleInfo;
-import org.apache.lens.api.ScheduleRunInfo;
-import org.apache.lens.api.schedule.*;
+import org.apache.lens.api.schedule.XSchedule;
+import org.apache.lens.api.scheduler.*;
 
 /**
  * The Interface SchedulerService.

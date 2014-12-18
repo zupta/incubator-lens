@@ -37,8 +37,6 @@ import javax.xml.bind.JAXBElement;
 
 import org.apache.lens.api.LensException;
 import org.apache.lens.api.LensSessionHandle;
-import org.apache.lens.api.ScheduleInfo;
-import org.apache.lens.api.ScheduleRunInfo;
 import org.apache.lens.api.schedule.XSchedule;
 import org.apache.lens.server.LensServices;
 import org.apache.lens.server.api.scheduler.SchedulerService;
@@ -46,6 +44,8 @@ import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 import org.glassfish.jersey.media.multipart.FormDataParam;
 import org.apache.lens.api.schedule.ObjectFactory;
+import org.apache.lens.api.scheduler.ScheduleInfo;
+import org.apache.lens.api.scheduler.ScheduleRunInfo;
 
 /**
  * 
